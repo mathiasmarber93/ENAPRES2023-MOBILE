@@ -1,0 +1,22 @@
+2023-07-06 08:21:12:450 [Appium] Welcome to Appium v2.0.0-rc.5
+2023-07-06 08:21:12:453 [Appium] Non-default server args:
+2023-07-06 08:21:12:454 [Appium] { localTimezone: true }
+2023-07-06 08:21:12:480 [Appium] Appium REST http interface listener started on http://0.0.0.0:4723
+2023-07-06 08:21:12:484 [Appium] You can provide the following URLS in your client code to connect to this server:
+2023-07-06 08:21:12:485 [Appium] 	http://192.168.56.1:4723/
+2023-07-06 08:21:12:485 [Appium] 	http://192.168.35.11:4723/
+2023-07-06 08:21:12:485 [Appium] 	http://127.0.0.1:4723/ (only accessible from the same host)
+2023-07-06 08:21:12:486 [Appium] No drivers have been installed in C:\Users\mmartinez. Use the "appium driver" command to install the one(s) you want to use.
+2023-07-06 08:21:12:486 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+2023-07-06 08:21:12:615 [HTTP] --> GET /status
+2023-07-06 08:21:12:616 [HTTP] {}
+2023-07-06 08:21:12:618 [AppiumDriver@7c5d] Calling AppiumDriver.getStatus() with args: []
+2023-07-06 08:21:12:620 [AppiumDriver@7c5d] Responding to client with driver.getStatus() result: {"build":{"version":"2.0.0-rc.5"}}
+2023-07-06 08:21:12:627 [HTTP] <-- GET /status 200 9 ms - 44
+2023-07-06 08:21:12:627 [HTTP] 
+2023-07-06 08:21:14:043 [HTTP] Request idempotency key: ddc8a93d-a81f-4e1a-b09d-d0c71d492253
+2023-07-06 08:21:14:054 [HTTP] --> POST /wd/hub/session
+2023-07-06 08:21:14:055 [HTTP] {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:app":"C:/Users/mmartinez/IdeaProjects/ENAPRES2023-MOBILE/app/ENAPRES2023.apk","appium:deviceName":"Android Emulator","appium:hub":"http://127.0.0.1:4723/wd/hub","appium:platformVersion":"4.4","platformName":"android"}}}
+2023-07-06 08:21:14:066 [HTTP] No route found for /wd/hub/session
+2023-07-06 08:21:14:067 [HTTP] <-- POST /wd/hub/session 404 12 ms - 211
+2023-07-06 08:21:14:068 [HTTP] 
